@@ -25,7 +25,7 @@ namespace KattisADifferentProblem
             */
 
             String line;
-            StreamReader sr = new StreamReader("C:\\Users\\admin\\source\\repos\\KattisADifferentProblem\\problem.txt");
+            StreamReader sr = new StreamReader(@"C:\Users\admin\source\repos\KattisADifferentProblem\problem.txt");
             line = sr.ReadLine();
             while (line != null)
             {
